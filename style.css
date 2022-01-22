@@ -1,0 +1,150 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+body{
+background-color:#441e85;
+
+}
+.logo img{
+width: 200px;
+height: 150px;
+}
+.form{
+display: grid;
+grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+}
+
+
+
+
+.form .cart-side{
+justify-content: center;
+margin: auto;
+}
+.form {
+ margin: 20px;
+background-color:#461d85;
+border: 1px solid #3d1579;
+border-radius:50px;
+box-shadow: #421570 5px 5px;
+}
+.form-side {
+background-color: #ffffff;
+padding: 100px;
+border-radius: 300px 20px 250px;
+box-shadow: 2px 5px #461d85;
+}
+.form-side form input{
+border: solid 1px#461d85;
+border-left: none;
+border-right: none;
+border-top: none;
+margin: 10px;
+color: #080829;
+width: 400px;
+height: 40px;
+padding-left:5px ;
+font-family:'Roboto', sans-serif;
+outline-style: none;
+}
+*{
+padding: 0px;
+margin: 0px;
+}
+.form-side button{
+margin-top: 30px;
+justify-self: center;
+margin-left: 80px;
+font-weight: 700;
+color: white;
+font-family: sans-serif;
+font-size: 20px;
+background-color:#3176df ;
+padding: 10px;
+padding-left: 80px;
+padding-right: 80px;
+border: #1e6ce3 solid 1px ;
+border-radius: 10px;
+}
+.crt-side{
+margin: auto;
+}
+.crt-side h1{
+color: #ffffff;
+font-family:'Luxurious Roman', cursive;;
+font-size: 30px;
+margin-bottom: 50px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.crt-side h2{
+                    color: #ffffff;
+                    font-family:'Luxurious Roman', cursive;;
+                    font-size: 70px;
+                    margin-bottom: 50px;
+                    font-weight: 700;
+                    text-transform: uppercase;
+}
+.crt-side button{
+font-weight: 700;
+font-family: sans-serif;
+font-size: 100px;
+margin-left: 50px;
+border: none;
+border-radius: 10px;
+}
+@media (max-width:768px) {
+.logo img{
+width: 100px;
+height: 100px;
+}
+svg{
+display: none;
+}
+.form .crt-side h2{
+font-size: 30px;
+margin: auto;
+margin-left: 0;
+
+}
+.form .crt-side h1{
+font-size: 15px;
+
+}
+.form .crt-side button{
+font-size: 35px;
+text-align: center;
+justify-self: center;
+}
+.form .form-side{
+ padding: 100px;
+ padding-left: 50px;
+width: 400px;
+border-radius:  50px 20px 70px;
+}
+.form .form-side input{
+   width: 300px;
+  height: 30px;
+  margin: 5px;
+  margin-top: 10px;
+  padding-left:2px ;
+  font-family:'Roboto', sans-serif;
+ outline-style: none;
+}
+.form-side button{
+margin-left: 80px;
+
+}
+.form{
+margin: 10px;
+}
+.form .form-side button{
+padding-left: 30px;
+padding-right:30px ;
+font-size: 15px;
+}
+.form .crt-side button {
+margin-left: 70px;
+}
+}
