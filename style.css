@@ -148,3 +148,19 @@ font-size: 15px;
 margin-left: 70px;
 }
 }
+
+
+@media (max-width:640px) {
+  .form .form-side {
+width: 345px;
+  }  
+  .form .form-side input{
+width: 250px;
+  }     
+  .crt-side {
+padding: 5px;
+margin-left: 1px;
+text-align: left;
+justify-self: left;
+  }           
+}
